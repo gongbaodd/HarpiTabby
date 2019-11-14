@@ -1,0 +1,33 @@
+{
+  "name": "harpi-tabby",
+  "version": "1.0.0",
+  "description": "A tool to practice harmonica.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongbaodd/HarpiTabby.git"
+  },
+  "author": "gongbaodd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gongbaodd/HarpiTabby/issues"
+  },
+  "homepage": "https://github.com/gongbaodd/HarpiTabby#readme",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "git-cz": "^3.3.0",
+    "husky": "^3.0.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
